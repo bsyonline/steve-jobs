@@ -1,0 +1,6 @@
+server:
+  port: 8809
+
+job:
+  jar:
+    repository: /home/rolex/IdeaProjects/steve-jobs/jobs
