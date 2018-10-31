@@ -14,10 +14,20 @@
         <module>jobs-api</module>
         <module>jobs-garb</module>
         <module>jobs-model</module>
+        <module>jobs-cluster</module>
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <spring-boot.version>2.0.2.RELEASE</spring-boot.version>
+        <junit.version>4.12</junit.version>
+        <guava.version>18.0</guava.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <curator.version>4.0.1</curator.version>
+        <commons-lang3.version>3.4</commons-lang3.version>
         <quartz.version>2.2.3</quartz.version>
     </properties>
 
